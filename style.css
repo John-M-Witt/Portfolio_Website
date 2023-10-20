@@ -1,3 +1,65 @@
+html {
+    font-size: 16px;
+    font-family: 'roboto', sans-serif;
+}
+body {
+    margin: 5rem 5rem;
+}
+.about {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    }
+
+h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+    }
+nav li {
+    margin-left: 4rem;
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+h2 {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.subhead1 {
+    margin-top: 2.0rem;
+    margin-bottom: 2.0rem;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+}
 .text {
-    font-size: 50px;
-} 
+    width: 67%;
+    text-align: justify;
+}
+p {
+    line-height: 2rem;
+    margin: 0;
+}
+.middle_paragraph {
+    margin: 1.5rem 0rem;
+}
+img {
+  width: 100%;
+  height: auto;  
+}
+.subhead2 {
+    margin: 2rem 0rem;
+}
+.arrow{
+   display: flex;
+   text-align: center;
+}
+.arrow a {
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
