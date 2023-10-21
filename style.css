@@ -84,3 +84,11 @@ img {
 .project_image{
     border: 1rem solid red; /* Remove after adding full screen popup on click in JS */
 }
+
+/* Skills-specific styles*/
+.skills_text {
+    width: 100%;
+}
+.skills_text p{
+    margin-bottom: 2rem;
+}
