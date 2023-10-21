@@ -5,31 +5,36 @@ html {
 body {
     margin: 5rem 5rem;
 }
-.about {
+header {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-    }
-
+}
 h1 {
     font-size: 2rem;
     font-weight: 700;
     letter-spacing: 0.1rem;
 }
-nav ul {
+nav {
     display: flex;
     list-style: none;
-    }
-nav li {
+}
+nav a{
     margin-left: 4rem;
     font-size: 1.25rem;
     font-weight: 400;
+    text-decoration: none;
+    color: black;
+}
+nav a:hover{
+    text-decoration: underline;
+    color: blue;
 }
 h2 {
     font-size: 1.5rem;
     font-weight: 500;
 }
-.subhead1 {
+section {
     margin-top: 2.0rem;
     margin-bottom: 2.0rem;
 }
@@ -52,8 +57,9 @@ img {
   width: 100%;
   height: auto;  
 }
-.subhead2 {
-    margin: 2rem 0rem;
+.subhead {
+    margin-top: 0rem;
+    margin-bottom: 2rem;
 }
 .arrow{
    display: flex;
@@ -62,4 +68,10 @@ img {
 .arrow a {
     margin-left: 1rem;
     margin-bottom: 1rem;
+    text-decoration: none;
+    color: black;
+}
+.arrow a:hover{
+    text-decoration: underline;
+    color: blue;
 }
