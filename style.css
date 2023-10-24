@@ -1,3 +1,5 @@
+/* Universal Stylings */
+
 html {
     font-size: 16px;
     font-family: 'roboto', sans-serif;
@@ -11,6 +13,7 @@ header {
     align-items: baseline;
     background-color: #f0e7d8;
     border-radius: 1rem;
+    margin-bottom: 4rem;;
 }
 h1 {
     font-size: 2rem;
@@ -48,6 +51,7 @@ section {
     display: flex;
     justify-content: space-between;
 }
+/* Unique homepage stylings */
 .text {
     width: 67%;
     text-align: justify;
@@ -80,6 +84,18 @@ img {
 .arrow a:hover{
     text-decoration: underline;
     color: blue;
+}
+.image p {
+    font-size: 0.9rem;
+    text-align: center;
+}
+.home_projects {
+    position: relative;
+    top: -7rem;
+}
+.home_skills {
+    position: relative;
+    top: -7rem;
 }
 
 /* Specific project page styles*/
