@@ -9,15 +9,20 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
+    background-color: #f0e7d8;
+    border-radius: 1rem;
 }
 h1 {
     font-size: 2rem;
     font-weight: 700;
     letter-spacing: 0.1rem;
+    margin-left: 1rem;
+
 }
 nav {
     display: flex;
     list-style: none;
+    margin-right: 1rem;
 }
 nav a{
     margin-left: 4rem;
@@ -77,7 +82,7 @@ img {
     color: blue;
 }
 
-/* Project-specific styles*/
+/* Specific project page styles*/
 .project {
     margin-bottom: 8rem;;   
 }
@@ -85,10 +90,31 @@ img {
     border: 1rem solid red; /* Remove after adding full screen popup on click in JS */
 }
 
-/* Skills-specific styles*/
-.skills_text {
-    width: 100%;
+/* Specific skills page styles*/
+#skills_container {
+    display: flex; 
+    align-items: center;
 }
-.skills_text p{
-    margin-bottom: 2rem;
+
+.skills{
+    margin: 4rem auto ;
+    width: 80%;
+    border: black solid 0.2rem;
+    padding: 4rem;
+}
+
+.skills p{
+    margin-top: 3rem;
+}
+
+#skill_1, #skill_2, #skill_3, #skill_4, #skill_5 {
+    display: none;
+}
+
+#left_arrow {
+    display: none;
+}
+
+#left_arrow, #right_arrow {
+    cursor: pointer;
 }
