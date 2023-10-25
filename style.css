@@ -1,4 +1,4 @@
-/* Universal Stylings */
+/* Common Stylings */
 
 html {
     font-size: 16px;
@@ -66,6 +66,7 @@ p {
 img {
   width: 100%;
   height: auto;  
+  border-radius: 1rem;
 }
 .subhead {
     margin-top: 0rem;
@@ -99,8 +100,12 @@ img {
 }
 
 /* Specific project page styles*/
+.project h2 {
+    margin-bottom: 2rem;;
+}
+
 .project {
-    margin-bottom: 8rem;;   
+    margin-bottom: 4rem;   
 }
 .project_image{
     border: 1rem solid red; /* Remove after adding full screen popup on click in JS */
@@ -110,6 +115,7 @@ img {
 #skills_container {
     display: flex; 
     align-items: center;
+    width: 100%;
 }
 
 .skills{
@@ -117,6 +123,10 @@ img {
     width: 80%;
     border: black solid 0.2rem;
     padding: 4rem;
+    background-color: #56666b;
+    color: white;
+    border-radius: 1rem;
+    box-shadow: 5px 5px 15px 5px #000000;
 }
 
 .skills p{
@@ -124,13 +134,17 @@ img {
 }
 
 #skill_1, #skill_2, #skill_3, #skill_4, #skill_5 {
-    display: none;
+    visibility: hidden;
 }
 
 #left_arrow {
-    display: none;
+    visibility: hidden;
 }
 
 #left_arrow, #right_arrow {
     cursor: pointer;
-}
+   }
+
+#left_arrow:hover, #right_arrow:hover{
+    color: #DD614A;
+} 
