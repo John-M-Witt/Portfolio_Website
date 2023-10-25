@@ -148,3 +148,33 @@ img {
 #left_arrow:hover, #right_arrow:hover{
     color: #DD614A;
 } 
+
+/* Unique ContactPage Stylings */
+.contact_container {
+    display: flex;
+    justify-content: space-around;
+}
+.info{
+    margin-bottom: 3rem;
+    font-size: 1.17rem;
+    font-weight: bold;
+}
+.info input {
+    width: 10rem;
+    height: 1.5rem;
+    margin-top: 1rem;
+    font-size: 1.2rem;
+}
+textarea{
+    font-size: 1.2rem;
+    font-family: roboto;
+}
+
+button {
+    font-size: 1.3rem;
+    background-color: #dd614A;
+    padding: 1rem;
+    color: white;
+    font-weight: 700;
+    border-radius: 1rem;
+    }

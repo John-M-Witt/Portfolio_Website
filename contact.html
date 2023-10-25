@@ -22,8 +22,55 @@
         </nav>
     </header>
     
+    <section>
+        <div class="contact_container">
+            <div class="contact_first_column">    
+                <h2 class="subhead con">Contact Me</h2>
+                <h3>Email:</h3>
+                <p>fakeemail@gmail.com</p>
+                <h3>Mobile:</h3>
+                <p>262-555-1212</p>
+                <h3>Address</h3>
+                <p>289 Randall Mill Street</p>
+                <p>Brookfield, WI 53045</p>
+            </div>
+            <div class="contact_second_column">
+                <form action="./messages.html" method="POST">
+                    <h2 class="subhead">Or leave a message</h2>
+                    <div class="info">
+                        <label for="name">Full Name:</label>
+                        <br>
+                        <input id="name" name="name" type="text" maxlength="30" required>
+                    </div>
 
- 
+                    <div class="info">
+                        <label for="reason">Reason for Contact:</label>
+                        <br>
+                        <input id="reason" type="text" list="reasons" name="reason" required>
+                    </div>
+                    
+                    <div class="info">
+                        <datalist id="reasons">
+                            <option>Job opening</option>
+                            <option>Consulting</option>
+                            <option>Networking</option>
+                            <option>Other</option>
+                        </datalist>
+                    </div>
+
+                    <div class="info">
+                        <label for="message">Message:</label>
+                        <br>
+                        <textarea id="message" name="message" rows="10" cols="60" required>
+                        </textarea>
+                    </div>
+
+                    <button type="submit" value="send">Submit</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
     <script src="./script.js"></script>
 
 </body>
