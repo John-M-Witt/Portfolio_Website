@@ -188,6 +188,12 @@ textarea{
     font-family: roboto;
 }
 
+.button_container {
+   display: flex;
+   justify-content: center;
+   
+ }
+
 button {
     font-size: 1.3rem;
     background-color: #dd614A;
@@ -195,4 +201,4 @@ button {
     color: white;
     font-weight: 700;
     border-radius: 1rem;
-    }
+}
