@@ -1,9 +1,14 @@
 /*About Me page*/
+let skillIcons = document.querySelectorAll(".skill_icon");
 
+function navigateToSkill () {
+    let skillPage = "./skills.html";
+    window.location.href = skillPage;
+}
 
-
-
-
+skillIcons.forEach(icon => {
+icon.addEventListener("click", navigateToSkill)    
+});
 
 /*Skills page slideshow */
 

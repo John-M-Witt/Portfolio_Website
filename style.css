@@ -63,14 +63,22 @@ p {
 .middle_paragraph {
     margin: 1.5rem 0rem;
 }
+.about_image {
+    display: flex;
+    justify-content: flex-end;
+ }
 img {
-  width: 100%;
+  width: 80%;
   height: auto;  
   border-radius: 1rem;
 }
 .subhead {
     margin-top: 0rem;
     margin-bottom: 2rem;
+}
+.home_projects {
+    position: relative;
+    top: -22rem;
 }
 .arrow{
    display: flex;
@@ -80,23 +88,18 @@ img {
     margin-left: 1rem;
     margin-bottom: 1rem;
     text-decoration: none;
-    color: red; /* change to black once links are added  */
+    color:black;
 }
 .arrow a:hover{
     text-decoration: underline;
     color: blue;
 }
-.image p {
-    font-size: 0.9rem;
-    text-align: center;
-}
-.home_projects {
-    position: relative;
-    top: -7rem;
-}
 .home_skills {
     position: relative;
-    top: -7rem;
+    top: -22rem;
+}
+.skill_icons a {
+    color: #DD614A;
 }
 
 /* Specific project page styles*/
@@ -108,7 +111,7 @@ img {
     margin-bottom: 4rem;   
 }
 .project_image{
-    border: 1rem solid red; /* Remove after adding full screen popup on click in JS */
+    border: 1rem solid black;
 }
 
 /* Specific skills page styles*/
@@ -127,6 +130,12 @@ img {
     color: white;
     border-radius: 1rem;
     box-shadow: 5px 5px 15px 5px #000000;
+}
+
+.skill_container {
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-end;
 }
 
 .skills p{
