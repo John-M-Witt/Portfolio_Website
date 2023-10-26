@@ -1,4 +1,11 @@
-/*Skills slideshow */
+/*About Me page*/
+
+
+
+
+
+
+/*Skills page slideshow */
 
 const skills = document.getElementsByClassName('skills');
 const leftArrow = document.getElementById('left_arrow');
@@ -25,10 +32,10 @@ function checkArrows () {
 function skillDisplay () {
     for (let i=0; i < skills.length; i++) {
         if (i === skillNumber) {
-        skills[i].style.visibility = 'visible';
+        skills[i].style.display = 'inline-block';
         
     } else {
-    skills[i].style.visibility = 'collapse';
+    skills[i].style.display = 'none';
 }
 }}
 

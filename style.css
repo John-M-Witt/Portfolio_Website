@@ -134,7 +134,7 @@ img {
 }
 
 #skill_1, #skill_2, #skill_3, #skill_4, #skill_5 {
-    visibility: hidden;
+    display: none;
 }
 
 #left_arrow {
