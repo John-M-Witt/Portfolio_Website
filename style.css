@@ -104,18 +104,27 @@ img {
 
 /* Specific project page styles*/
 .project h2 {
-    margin-bottom: 2rem;;
+    margin-bottom: 2rem;
+}
+
+.projects_container {
+    display: flex;
+    justify-content: space-between;
+
 }
 
 .project {
-    margin-bottom: 4rem;   
-}
-.project_image{
-    border: 1rem solid black;
+    width: 45%;
+    margin-bottom: 4rem; 
+    border: solid black 0.2rem;  
+    padding: 1rem;
+    box-shadow: 5px 5px 15px 5px #000000;
 }
 
+
+
 /* Specific skills page styles*/
-#skills_container {
+#slideshow_container {
     display: flex; 
     align-items: center;
     width: 100%;
