@@ -47,13 +47,15 @@ section {
     margin-top: 2.0rem;
     margin-bottom: 2.0rem;
 }
-.container {
+
+/* Unique homepage stylings */
+
+.about_container {
     display: flex;
     justify-content: space-between;
 }
-/* Unique homepage stylings */
 .text {
-    width: 67%;
+    width: 70%;
     text-align: justify;
 }
 p {
@@ -63,12 +65,8 @@ p {
 .middle_paragraph {
     margin: 1.5rem 0rem;
 }
-.about_image {
-    display: flex;
-    justify-content: flex-end;
- }
 img {
-  width: 80%;
+  width: 15%;
   height: auto;  
   border-radius: 1rem;
 }
@@ -78,7 +76,7 @@ img {
 }
 .home_projects {
     position: relative;
-    top: -22rem;
+    /* top: -8rem; */
 }
 .arrow{
    display: flex;
@@ -96,7 +94,7 @@ img {
 }
 .home_skills {
     position: relative;
-    top: -22rem;
+    /* top: -8rem; */
 }
 .skill_icons a {
     color: #DD614A;
@@ -110,6 +108,7 @@ img {
 .projects_container {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 
 }
 
