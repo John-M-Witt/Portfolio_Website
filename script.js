@@ -14,7 +14,9 @@ icon.addEventListener("click", navigateToSkill)
 
 const skills = document.getElementsByClassName('skills');
 const leftArrow = document.getElementById('left_arrow');
+console.log(leftArrow);
 const rightArrow = document.getElementById('right_arrow');
+console.log(rightArrow);
 
 //Sets initial skill number
 let skillNumber = 0;

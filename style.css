@@ -155,10 +155,6 @@ img {
     display: none;
 }
 
-#left_arrow {
-    visibility: hidden;
-}
-
 #left_arrow, #right_arrow {
     cursor: pointer;
    }
