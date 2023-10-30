@@ -1,5 +1,4 @@
 /* Common Stylings */
-
 html {
     font-size: 16px;
     font-family: 'roboto', sans-serif;
@@ -47,8 +46,8 @@ section {
     margin-bottom: 2.0rem;
 }
 
-/* Unique homepage stylings */
 
+/* Unique homepage stylings */
 .about_container {
     display: flex;
     justify-content: space-between;
@@ -95,6 +94,7 @@ img {
     color: #DD614A;
 }
 
+
 /* Unique project page styles*/
 .project h2 {
     margin-bottom: 2rem;
@@ -115,17 +115,19 @@ img {
     overflow-wrap: break-word;
 }
 
+
 /* Specific skills page styles*/
 #slideshow_container {
     display: flex; 
     align-items: center;
     width: 100%;
+    column-gap: 1rem;
 }
 .skills{
-    margin: 4rem auto ;
+    /* margin: 4rem auto ; */
     width: 80%;
     border: black solid 0.2rem;
-    padding: 4rem;
+    padding: 3rem;
     background-color: #56666b;
     color: white;
     border-radius: 1rem;
@@ -148,6 +150,31 @@ img {
 #left_arrow:hover, #right_arrow:hover{
     color: #DD614A;
 } 
+
+@media screen and (max-width: 945px){
+    header {
+        display: block;
+    }
+    h1 {
+    padding-top: 1rem;   
+    text-align: center; 
+    }
+    nav {
+        justify-content: space-around;
+        padding-bottom: 1rem;
+        margin: 0rem;
+    }
+    nav a {
+      margin-left: 0rem;
+    }
+    .projects_container{
+        justify-content: center;
+    }
+    .project {
+        width: 90%;
+    }
+}
+
 
 /* Unique ContactPage Stylings */
 .contact_container {
@@ -182,31 +209,6 @@ button {
     font-weight: 700;
     border-radius: 1rem;
 }
-
-@media screen and (max-width: 945px){
-    header {
-        display: block;
-    }
-    h1 {
-    padding-top: 1rem;   
-    text-align: center; 
-    }
-    nav {
-        justify-content: space-around;
-        padding-bottom: 1rem;
-        margin: 0rem;
-    }
-    nav a {
-      margin-left: 0rem;
-    }
-    .projects_container{
-        justify-content: center;
-    }
-    .project {
-        width: 90%;
-    }
-
-}
 @media screen and (max-width: 745px ) {
     HTML {
         font-size: 15px;
@@ -228,4 +230,9 @@ button {
    img {
     margin-bottom: 2rem;
    }
+}
+@media screen and (max-width: 400px){
+    .skill_container{
+        display: block;
+    }
 }
