@@ -151,30 +151,6 @@ img {
     color: #DD614A;
 } 
 
-@media screen and (max-width: 945px){
-    header {
-        display: block;
-    }
-    h1 {
-    padding-top: 1rem;   
-    text-align: center; 
-    }
-    nav {
-        justify-content: space-around;
-        padding-bottom: 1rem;
-        margin: 0rem;
-    }
-    nav a {
-      margin-left: 0rem;
-    }
-    .projects_container{
-        justify-content: center;
-    }
-    .project {
-        width: 90%;
-    }
-}
-
 
 /* Unique ContactPage Stylings */
 .contact_container {
@@ -195,11 +171,12 @@ img {
 textarea{
     font-size: 1.2rem;
     font-family: roboto;
+    margin-top: 1rem;
+    max-width: 100%;
 }
 .button_container {
    display: flex;
    justify-content: center;
-   
  }
 button {
     font-size: 1.3rem;
@@ -209,16 +186,41 @@ button {
     font-weight: 700;
     border-radius: 1rem;
 }
+
+@media screen and (max-width: 945px){
+/* Universal responsive stylings */
+    header {
+        display: block;
+    }
+    h1 {
+    padding-top: 1rem;   
+    text-align: center; 
+    }
+    nav {
+        justify-content: space-around;
+        padding-bottom: 1rem;
+        margin: 0rem;
+    }
+    nav a {
+      margin-left: 0rem;
+    }
+    /* Project page responsive stylings */
+    .projects_container{
+        justify-content: center;
+    }
+    .project {
+        width: 90%;
+    }
+}
+
 @media screen and (max-width: 745px ) {
+/* Universal responsive stylings */
     HTML {
         font-size: 15px;
     }
     body {
         margin: 2rem;
     }
-    .about_container {
-        flex-direction: column-reverse;        
-   } 
     nav {
         flex-direction: column;
         text-align: center;
@@ -226,13 +228,31 @@ button {
    }
    nav a {
         padding-bottom: 1rem;
+   }
+/* Homepage responsive stylings */
+    .about_container {
+        flex-direction: column-reverse;        
    } 
    img {
     margin-bottom: 2rem;
    }
 }
+
+
+/* Skills page responsive stylings */
 @media screen and (max-width: 400px){
     .skill_container{
         display: block;
+    }
+}
+
+
+/* Contact page responsive stylings */
+@media screen and (max-width: 1150px) {
+    .contact_container{
+        display: block;
+    }
+    .contact_second_column{
+        margin-top: 4rem;
     }
 }
