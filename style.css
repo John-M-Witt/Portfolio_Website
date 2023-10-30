@@ -3,6 +3,7 @@
 html {
     font-size: 16px;
     font-family: 'roboto', sans-serif;
+    box-sizing: border-box;
 }
 body {
     margin: 5rem 5rem;
@@ -93,62 +94,16 @@ img {
 .skill_icons a {
     color: #DD614A;
 }
-@media screen and (max-width: 945px){
-    header {
-        display: block;
-    }
-    h1 {
-    padding-top: 1rem;   
-    text-align: center; 
-    }
-    nav {
-        justify-content: space-around;
-        padding-bottom: 1rem;
-        margin: 0rem;
-    }
-    nav a {
-      margin-left: 0rem;
-    }
 
-    
-}
-@media screen and (max-width: 745px ) {
-    HTML {
-        font-size: 15px;
-    }
-    body {
-        margin: 2rem;
-    }
-    .about_container {
-        flex-direction: column-reverse;        
-   } 
-    nav {
-        flex-direction: column;
-        text-align: center;
-        padding-bottom: 0rem;
-   }
-   nav a {
-        padding-bottom: 1rem;
-   } 
-   img {
-    margin-bottom: 2rem;
-   }
-}
-
-
-
-/* Specific project page styles*/
+/* Unique project page styles*/
 .project h2 {
     margin-bottom: 2rem;
 }
-
 .projects_container {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-
 }
-
 .project {
     width: 45%;
     margin-bottom: 4rem; 
@@ -156,8 +111,9 @@ img {
     padding: 1rem;
     box-shadow: 5px 5px 15px 5px #000000;
 }
-
-
+.git_address{
+    overflow-wrap: break-word;
+}
 
 /* Specific skills page styles*/
 #slideshow_container {
@@ -165,7 +121,6 @@ img {
     align-items: center;
     width: 100%;
 }
-
 .skills{
     margin: 4rem auto ;
     width: 80%;
@@ -176,25 +131,20 @@ img {
     border-radius: 1rem;
     box-shadow: 5px 5px 15px 5px #000000;
 }
-
 .skill_container {
     display: flex;
     justify-content: space-between;
     align-items:flex-end;
 }
-
 .skills p{
     margin-top: 3rem;
 }
-
 #skill_1, #skill_2, #skill_3, #skill_4, #skill_5 {
     display: none;
 }
-
 #left_arrow, #right_arrow {
     cursor: pointer;
    }
-
 #left_arrow:hover, #right_arrow:hover{
     color: #DD614A;
 } 
@@ -219,13 +169,11 @@ textarea{
     font-size: 1.2rem;
     font-family: roboto;
 }
-
 .button_container {
    display: flex;
    justify-content: center;
    
  }
-
 button {
     font-size: 1.3rem;
     background-color: #dd614A;
@@ -233,4 +181,51 @@ button {
     color: white;
     font-weight: 700;
     border-radius: 1rem;
+}
+
+@media screen and (max-width: 945px){
+    header {
+        display: block;
+    }
+    h1 {
+    padding-top: 1rem;   
+    text-align: center; 
+    }
+    nav {
+        justify-content: space-around;
+        padding-bottom: 1rem;
+        margin: 0rem;
+    }
+    nav a {
+      margin-left: 0rem;
+    }
+    .projects_container{
+        justify-content: center;
+    }
+    .project {
+        width: 90%;
+    }
+
+}
+@media screen and (max-width: 745px ) {
+    HTML {
+        font-size: 15px;
+    }
+    body {
+        margin: 2rem;
+    }
+    .about_container {
+        flex-direction: column-reverse;        
+   } 
+    nav {
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 0rem;
+   }
+   nav a {
+        padding-bottom: 1rem;
+   } 
+   img {
+    margin-bottom: 2rem;
+   }
 }
