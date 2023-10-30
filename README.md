@@ -2,7 +2,7 @@
 
 ## Description
 
-For this codecademy project, I was required to build a personal code portfolio detailing several projects in this learning section. 
+For this codecademy project, I was required to build a personal code portfolio website detailing several projects completed in this learning section. 
  
 ## Project Objectives
 
@@ -18,7 +18,7 @@ For this codecademy project, I was required to build a personal code portfolio d
 ## Achieved Objectives
 
 * Created wireframes and associated prototype using Figma
-* Website comprised of XX% HTML, XX% CSS and XX% JavaScript
+* Website comprised of approximately 73% HTML, 20% CSS and 7% JavaScript
 * JavaScript enables users to click through each skill on the skills page 
 * Developed locally using Microsoft (MS) Visual Studio (VS) Code
 * Utilized MS VS to implement git versioning
